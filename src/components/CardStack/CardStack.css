@@ -1,0 +1,11 @@
+.card-stack {
+    margin-top: 20px;
+}
+
+.card-stack > div {
+    cursor: pointer;
+}
+
+.card-stack > div:not(:first-child) {
+    margin-top: -190px;
+}
