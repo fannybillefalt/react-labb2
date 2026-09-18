@@ -1,3 +1,6 @@
+// Cards and activeCardId are stored in Redux because they are used
+// by multiple components and pages in the application.
+
 import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = {
